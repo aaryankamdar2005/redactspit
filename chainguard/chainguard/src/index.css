@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+body {
+  background: #000;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* --- CUSTOM SCROLLBAR THEME --- */
+
+/* For Webkit Browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 6px;  /* Width of vertical scrollbar */
+  height: 6px; /* Height of horizontal scrollbar */
+}
+
+/* The background of the scrollbar (Track) */
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+
+/* The moving part of the scrollbar (Thumb) */
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15); /* Subtle dark grey/white mix */
+  border-radius: 10px;
+}
+
+/* On Hover - Make it Blue to match theme */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(37, 99, 235, 0.6); /* Blue-600 with opacity */
+  cursor: pointer;
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.15) transparent;
+}

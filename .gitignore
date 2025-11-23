@@ -1,0 +1,22 @@
+# Environment files (IMPORTANT)
+.env
+backend/.env
+frontend/.env
+ml_service/.env
+
+# Node
+node_modules/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+
+# ML models
+*.pkl
+*.h5
+*.joblib
+
+# OS / Editor
+.DS_Store
+.vscode/
