@@ -632,7 +632,7 @@ return (
           <div className="bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-sm">
             <div className="flex items-center justify-between mb-4">
               <h4 className="text-sm text-gray-400 uppercase tracking-wider flex items-center gap-2">
-                <TrendingUp className="w-4 h-4" /> Avg Risk Score
+                <TrendingUp className="w-4 h-4" /> Average Risk Score
               </h4>
             </div>
             <div className="flex items-end gap-2">
